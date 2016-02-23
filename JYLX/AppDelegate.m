@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //
+
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    self.window.rootViewController = nav;
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +47,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
+    
+    //清除保留的sessionID
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"sessionID"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
+    
     [self saveContext];
 }
 

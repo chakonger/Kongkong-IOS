@@ -6,9 +6,9 @@
 //  Copyright © 2016年 史志勇. All rights reserved.
 //
 
-#define  devicebindUrl @"http://118.192.76.159:80/web/devicebind"
-#define  DevidlistUrl @"http://118.192.76.159:80/web/devicelist"
-#define   SERVER_IP    @"118.192.76.159"
+#define  devicebindUrl @"http://ss1.chakonger.net.cn/web/devicebind"
+#define  DevidlistUrl @"http://ss1.chakonger.net.cn/web/devicelist"
+#define   SERVER_IP    @"ss1.chakonger.net.cn"
 
 
 #import "RadarViewController.h"

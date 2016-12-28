@@ -5,11 +5,11 @@
 //  Created by ToTank on 16/2/1.
 //  Copyright © 2016年 史志勇. All rights reserved.
 //
-#define DevidlistUrl @"http://118.192.76.159:80/web/devicelist"
+#define DevidlistUrl @"http://ss1.chakonger.net.cn/web/devicelist"
 
-#define  PushNewUrl  @"http://118.192.76.159:80/web/getpushaddress"
+#define  PushNewUrl  @"http://ss1.chakonger.net.cn/web/getpushaddress"
 
-#define  HostNewUrl  @"http://118.192.76.159:80/web/getpushevent"
+#define  HostNewUrl  @"http://ss1.chakonger.net.cn/web/getpushevent"
 
 #import "ListViewController.h"
 #import "RadarViewController.h"

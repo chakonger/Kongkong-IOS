@@ -6,8 +6,8 @@
 //  Copyright © 2016年 史志勇. All rights reserved.
 //
 
-#define RegistUrl @"http://118.192.76.159:80/web/regist"
-#define LoginUrl @"http://118.192.76.159:80/web/login"
+#define RegistUrl @"http://ss1.chakonger.net.cn/web/regist"
+#define LoginUrl @"http://ss1.chakonger.net.cn/web/login"
 
 #import "ViewController.h"
 #import "ZYHttpTool.h"

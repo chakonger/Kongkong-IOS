@@ -3,7 +3,7 @@
     //  WeiMi
     //
     //
-    #define UnifiedOutletUrl   @"http://118.192.76.159:80/web/infratypeability"
+    #define UnifiedOutletUrl   @"http://ss1.chakonger.net.cn/web/infratypeability"
     //
 
     #import "MessageInputView.h"

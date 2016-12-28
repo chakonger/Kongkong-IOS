@@ -9,7 +9,7 @@
 
 
 
-#define RemoveDevidUrl  @"http://118.192.76.159:80/web/deviceremove"
+#define RemoveDevidUrl  @"http://ss1.chakonger.net.cn/web/deviceremove"
 
 #import "ChatViewController.h"
 #import "ListViewController.h"

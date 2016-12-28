@@ -431,10 +431,10 @@
     NSString *url = @"";
   
     if ([self.deviceItem.bigType isEqualToString:kDeviceBigTypeKG]) {
-         url = [NSString stringWithFormat:@"http://118.192.76.159:80/web/action?actionID=%@&token=%@&infraTypeID=%@",content,self.deviceItem.token,self.deviceItem.infraTypeID];
+         url = [NSString stringWithFormat:@"http://ss1.chakonger.net.cn/web/action?actionID=%@&token=%@&infraTypeID=%@",content,self.deviceItem.token,self.deviceItem.infraTypeID];
     }else
     {
-    url = [NSString stringWithFormat:@"http://118.192.76.159:80/web/action?actionID=%@&inst=%@&token=%@&infraTypeID=%@",@"6",content,self.deviceItem.token,self.deviceItem.infraTypeID];
+    url = [NSString stringWithFormat:@"http://ss1.chakonger.net.cn/web/action?actionID=%@&inst=%@&token=%@&infraTypeID=%@",@"6",content,self.deviceItem.token,self.deviceItem.infraTypeID];
        // NSLog(@"%@",self.deviceItem.infraTypeID);
        // NSLog(@"%@",url);
     
